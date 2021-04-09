@@ -1,0 +1,279 @@
+body{
+    background-image: url(https://sun9-17.userapi.com/impg/dndaI4LCPkePs6gakDKzd6XNz9FEDzp_jiT2Fw/ipA6IfMq3l0.jpg?size=2412x1938&quality=96&sign=dc55974a1e6114fe90266af1b6115a56&type=album);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Century Gothic;
+} 
+
+
+main{ 
+    padding-top: 20px;
+}
+.main{ 
+	margin: 20px auto;
+	width: 75%;
+    background-color: #232121;
+    opacity: 0.8;
+    padding: 50px;
+    border: none;
+}
+
+
+input[type=text]{ 
+    margin-left: 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #2D1E1E;
+    width: 180px;
+    height: 30px;
+    padding-left: 15px;
+    border-radius: 5px;
+    position: relative;
+    border: none;
+}
+#photo{ 
+    margin-left: 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #2D1E1E;
+    width: 180px;
+    height: 30px;
+    padding-left: 15px;
+    border-radius: 5px;
+    position: relative;
+    border: none;
+}
+
+#genre{
+    margin-left: 15px;
+    color: #f8f8f8e0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #2D1E1E;
+    width: 260px;
+    height: 30px;
+    padding-left: 0px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    padding-left: 2px;
+    border: none;
+}
+
+#country{
+    margin-left: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #2D1E1E;
+    width: 180px;
+    height: 30px;
+    padding-left: 0px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    padding-left: 2px;
+    border: none;
+}
+
+#year{
+    margin-left: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #2D1E1E;
+    width: 90px;
+    height: 30px;
+    padding-left: 0px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    padding-left: 2px;
+    border: none;
+}
+
+#age{ 
+    padding-left: 15px;
+    margin-left: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #2D1E1E;
+    width: 115px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    border: none;
+}
+
+.text{
+	color:white;
+	font: 30px Century Gothic;
+    display: flex;
+    flex-direction: row;
+	justify-content: left;
+	align-items: center;
+    margin-bottom: 30px;
+    border: none;
+
+}
+textarea{
+    padding-top: 2px;
+    margin-left: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #511B1A;
+    width: 90%;
+    height: 100px;
+    padding-left: 15px;
+    border-radius: 7px;
+    position: relative;
+    border: none;
+}
+
+
+input[type=file]{ 
+    margin-left: 15px;
+    color: #8eabb0;
+	font-size: 18px;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 6px;
+    transition: 0.2s;
+    border: none;
+}
+
+button{ 
+    color: white;
+	font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+    border-radius: 6px;
+    background:  #511B1A;
+    transition: 0.2s;
+	border: none;
+}
+button:hover{
+    background:  #75191A;
+}
+#buttons{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type=button]{ 
+    margin-bottom: 7px;
+    width: 300px;
+    color: white;
+	font-size: 18px;
+    font-weight: bold;
+    padding: 7px;
+    background:  #511B1A;
+    transition: 0.2s;
+	border: none;
+}
+
+
+.error{
+	color:#75191A;
+	font: 24px Century Gothic;
+    font-weight: bold;
+}
+
+.success{
+	color:#75191A;
+	font: 24px Century Gothic;
+    font-weight: bold;
+}
+
+.films{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: white;
+	font: 27px Century Gothic;
+    margin-top: 0px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #161515;
+    opacity: 0.9;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+}
+
+
+.movieTitle{
+    color:#f4fffdd1;
+	font: 50px Century Gothic;
+    margin-top: 0px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card_row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.inform{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 10px;
+}
+
+.inform_row{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.movieImg{
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    width: 380px;
+}
+
+
+.param{
+    color: white;
+	font: 26px Century Gothic;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.desc{
+    color: #C9C9C9;
+	font: 24px Century Gothic;
+    margin: 0px;
+    text-align: justify;
+}
+
