@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset = "utf-8"> 
+<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+<title>Добавить фильм</title> 
+<link rel = "stylesheet" href = "style.css">
+</head> 
+<body>
+	
+	<main>
+        <div class = "main">
+			<form id="formMovie"> 
+                <label class = "text">
+                Название фильма                                               
+                    <input id = "title" type = "text" placeholder = "Введите Название" required = "required">
+                </label>
+
+				<label class = "text" >
+					Страна
+                    <select id="country" >
+						<option value = "Великобритания">Великобритания</option>
+						<option value = "Германия">Германия</option>
+						<option value = "Испания">Испания</option>
+						<option value = "Италия">Италия</option>
+						<option value = "Канада">Канада</option>
+						<option value = "Россия">Россия</option>
+						<option value = "США">США</option>
+						<option value = "Франция">Франция</option>
+						<option value = "Япония">Япония</option>
+                    </select>
+                </label>
+
+				<label class = "text" >
+					Жанр
+                    <select id="genre">
+                        <option value = "Боевик">Боевик</option>
+                        <option value = "Детектив">Детектив</option>
+                        <option value = "Драма">Драма</option>
+                        <option value = "Комедия">Комедия</option>
+                        <option value = "Трагедия">Трагедия</option>
+                        <option value = "Фильм ужасов">Ужасы</option>
+                        <option value = "Фантастический фильм">Фантастика</option>	
+                    </select>
+                </label>
+
+                <label class = "text">
+                    Режиссер 
+                    <input id = "director" type = "text" placeholder = "Имя"   pattern = "^[A-Za-zА-Яа-яЁё\s]+$"  title = "Введите имя" required = "required">  
+                </label>
+
+                <label class = "text" >
+					Для зрителей старше
+                    <select id="age">
+                        <option value = "0+">0+</option>
+                        <option value = "6+">6+</option>
+                        <option value = "12+">12+</option>
+                        <option value = "16+">16+</option>
+                        <option value = "18+">18+</option>
+                    </select>
+                </label>
+
+                <label class = "text" for="photo">
+                    Постер (jpeg)
+				    <input type = "url" id="photo" name="photo" placeholder="https://..." required = "required"> 	
+                </label>
+
+                <label class = "text">
+                    Год выхода
+                    <input id = "year" placeholder="2000" type = "number" min = "2000" max = "2021"  step = "1" title = "Введите год от 2000 до 2021" required = "required">	
+                </label>
+                <div id="buttons">
+
+                    <button type = "submit">Добавить</button>
+			         <button type = "reset">Очистить</button>
+                </div>   
+                <div id = "message"> </div>
+            </form>
+		</div>
+
+        <div class = "main" id = "main">
+            <p class="films">Все фильмы</p>
+            
+        </div>
+	</main>
+	<script src = "limit.js"></script>
+    <script src = "films.js"></script>
+</body> 
+</html>
